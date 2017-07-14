@@ -2,7 +2,7 @@
 
 2017 선린모의해킹대회 what100 문제
 
-  - 64bit bnary
+  - 64bit binary
   - Easy BOF
 
 ## Overview
