@@ -10,8 +10,8 @@ DEFCON 2015 r0pbaby 문제
 
   - Libc, system 주소를 제공해주므로 ROP를 이용해 쉘을 획득할 수 있다.
   - 필요한 가젯은 다음과 같다.
-    1 pop rdi ; ret; ==> rp++ -f libc-2.23.so -r 4 | grep "pop rdi ; ret"
-    2 /bin/sh 주소 ==> strings -tx libc-2.23.so | grep "/bin/sh"
+  - pop rdi ; ret; ==> rp++ -f libc-2.23.so -r 4 | grep "pop rdi ; ret"
+  - /bin/sh 주소 ==> strings -tx libc-2.23.so | grep "/bin/sh"
 
 
 ## Vulnerability
