@@ -2,7 +2,7 @@
 
 2017 YISF Final MISC 문제
 
-  - Broken hex files
+  - Broken PNG files
   - File Recovery
 
 ## Overview
